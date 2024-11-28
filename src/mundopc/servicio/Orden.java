@@ -10,7 +10,7 @@ public class Orden {
     private final List<Computadora> computadoras;
     private static  int contadorOrdenes;
 
-    private Orden(){
+    public Orden(){
         computadoras = new ArrayList<>();
         this.idOrden = ++contadorOrdenes;
     }

@@ -22,7 +22,7 @@ public class Computadora {
 
     @Override
     public String toString() {
-        return "Computadora{" +
+        return "Computadora{\n" +
                 "idComputadora=" + idComputadora +
                 ", nombre='" + nombre + '\'' +
                 ",\n monitor=" + monitor +
